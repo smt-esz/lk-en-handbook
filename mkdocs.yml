@@ -1,0 +1,110 @@
+site_name: English LK Handbook
+site_description: Your handbook for the English Advanced Course. Look up how every text
+  type works, which phrases carry you through an exam, what the operators really
+  ask for, and how your work is graded. Evangelisches Schulzentrum Bad Düben.
+# Nach dem Anlegen des GitHub-Repos anpassen:
+site_url: https://smt-esz.github.io/lkenhandbook/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  # false = keine Google Fonts laden. Die Schrift (Inter, Variable Font) liegt
+  # selbst gehostet in assets/fonts/ und wird über stylesheets/extra.css
+  # eingebunden. Gut für Datenschutz, Offline-Betrieb, und sorgt dafür, dass
+  # Text und Überschriften auf jedem Gerät identisch aussehen.
+  font: false
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+
+# Alte, aufgeteilte Seite wird nicht mitgebaut.
+# writing/characterisation.md: durch writing/characterization.md ersetzt (Oxford spelling),
+# Datei liegt noch auf OneDrive, konnte nicht gelöscht werden (Freigabe abgelehnt).
+exclude_docs: |
+  language/text-types.md
+  writing/characterisation.md
+
+plugins:
+  - search
+  - offline
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/companion.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Writing:
+      - Characterization: writing/characterization.md
+      - Comment: writing/comment.md
+      - Creative writing: writing/creative-writing.md
+      - Discussion essay: writing/discussion.md
+      - Mediation: writing/mediation.md
+      - Speech: writing/speech.md
+      - Summary: writing/summary.md
+  - Analysis:
+      - Fictional texts: analysis/fictional-texts.md
+      - Non-fictional texts: analysis/non-fictional-texts.md
+      - Poems: analysis/poems.md
+      - Political cartoons: analysis/political-cartoons.md
+      - Speeches: analysis/speeches.md
+  - Speaking:
+      - Discussions and debates: speaking/discussions-debates.md
+      - Presentations: speaking/presentations.md
+      - Socratic seminar: speaking/socratic-seminar.md
+  - Language:
+      - False friends: language/false-friends.md
+      - Operators: language/operators.md
+      - Paragraph structure and cohesion: language/paragraph-structure.md
+      - Quoting and citing (MLA): language/mla-style-guide.md
+      - Register and tone: language/register-and-tone.md
+      - Spoken text types: language/spoken-texts.md
+      - Stylistic devices: language/stylistic-devices.md
+      - Useful phrases (writing): language/useful-phrases-writing.md
+      - Words you will hear: language/words-you-will-hear.md
+      - Written text types: language/written-texts.md
+  - Exams:
+      - Exam day: exams/exam-day.md
+      - Exams & grading: exams/exams-grading.md
+      - How to read my corrections: exams/corrections.md
+      - The speaking exam: exams/speaking-exam.md
+      - The written examination: exams/written-exam.md
+      - What actually gets asked: exams/task-formats.md
