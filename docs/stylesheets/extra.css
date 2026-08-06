@@ -1,0 +1,730 @@
+/* ==========================================================================
+   English LK Handbook — custom styles
+   ESZ Bad Düben
+   Aufbau:  1 Farben  2 Schrift  3 Überschriften  4 Links  5 Navigation
+            6 Tabellen  7 Admonitions  8 Karten  9 Kleinteile
+   ========================================================================== */
+
+/* --- 1 Farben ------------------------------------------------------------ */
+/* Das helle Schul-Türkis (#2eb681) bleibt Flächenfarbe für Header und
+   Akzente. Für Text und Links ist es zu hell (Kontrast auf Weiß ca. 2,3:1),
+   deshalb gibt es eine dunklere Variante nur für Schrift.                  */
+
+:root {
+  --esz-teal:        #2eb681;
+  --esz-teal-dark:   #1f9067;
+  --esz-teal-text:   #0f7355;
+  --esz-teal-light:  #eaf7f1;
+
+  --md-primary-fg-color:         var(--esz-teal);
+  --md-primary-fg-color--light:  #5cc79e;
+  --md-primary-fg-color--dark:   var(--esz-teal-dark);
+  --md-accent-fg-color:          var(--esz-teal-text);
+
+  --md-typeset-a-color:          var(--esz-teal-text);
+
+  --esz-heading-color: #1b2b26;
+  --esz-rule:          #dde5e2;
+  --esz-surface:       #f6f9f8;
+}
+
+[data-md-color-scheme="slate"] {
+  --esz-teal-text:  #6fd6ac;
+  --esz-teal-light: #16302a;
+
+  --md-primary-fg-color: var(--esz-teal);
+  --md-accent-fg-color:  #8ee0be;
+  --md-typeset-a-color:  var(--esz-teal-text);
+
+  --esz-heading-color: #e6f2ed;
+  --esz-rule:          #35443f;
+  --esz-surface:       #1d2b27;
+}
+
+/* --- 2 Schrift ---------------------------------------------------------- */
+/* Vorher kam die Schrift vom Betriebssystem (Helvetica Neue auf Mac/iPad,
+   Arial oder Liberation Sans auf Windows/Android). Das sind drei
+   unterschiedliche Schriftdateien mit leicht unterschiedlichen Formen und
+   Laufweiten, und wo eine echte Fett-Schnittdatei fehlte, hat der Browser
+   sie sich selbst "gefälscht" (Fake Bold). Genau das erzeugte das wacklige
+   Bild bei Überschriften.
+   Jetzt liegt eine einzige Schriftdatei im Repo (Inter, Variable Font,
+   SIL Open Font License, siehe assets/fonts/LICENSE-Inter.txt) und wird
+   von jedem Gerät gleich geladen und gerendert, ganz gleich ob Windows,
+   Mac, iPad oder Android. Läuft auch offline, weil die Datei mit
+   gecacht wird wie jede andere Seite. Kein Google Fonts, keine externe
+   Anfrage. Als Variable Font deckt eine Datei alle Schriftstärken ab,
+   von dünn bis fett, es gibt also nichts mehr zu "fälschen".            */
+
+@font-face {
+  font-family: "InterVariable";
+  src: url("../assets/fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterVariable";
+  src: url("../assets/fonts/InterVariable-Italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --md-text-font: "InterVariable", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+  --md-code-font: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+                  "Liberation Mono", monospace;
+}
+
+body,
+input,
+.md-typeset,
+.md-nav,
+.md-header,
+.md-footer {
+  font-family: "InterVariable", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+/* Angenehme Zeilenlänge für Fließtext. Wichtig: nur für echte Absätze im
+   Textfluss. Auf Titelzeilen von Hinweiskästen und auf Absätze in
+   Tabellenzellen darf die Begrenzung nicht wirken, sonst hört die
+   Hintergrundfarbe mitten in der Zeile auf und es sieht aus, als wäre die
+   Fläche unterbrochen. Genau das war der Farbabriss in der Kopfzeile.   */
+.md-typeset > p,
+.md-typeset > blockquote > p,
+.md-typeset > details > p,
+.md-typeset li > p {
+  max-width: 40em;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary,
+.md-typeset table p,
+.md-typeset .grid p {
+  max-width: none;
+}
+
+/* --- 3 Überschriften ---------------------------------------------------- */
+/* Überschriften sind dunkel und nie türkis, damit Türkis eindeutig
+   "das kann ich anklicken" bedeutet.                                      */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: var(--esz-heading-color);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  /* Sprungziele nicht unter dem festen Kopf verstecken. */
+  scroll-margin-top: 3.6rem;
+}
+
+.md-typeset h1 {
+  font-size: 1.85rem;
+  line-height: 1.2;
+  margin: 0 0 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--esz-teal);
+}
+
+/* Die Linie über der h2 ist die einzige Abschnittstrennung im Text.
+   Waagerechte Striche im Markdown sind deshalb aus den Seiten entfernt,
+   sonst stehen an manchen Stellen zwei Linien übereinander.
+
+   Der Abstand liegt bewusst überwiegend im padding und nicht im margin.
+   Material bestimmt den aktiven Eintrag im Inhaltsverzeichnis über die
+   Oberkante des Überschriften-Elements. Aussenabstand zählt dabei nicht
+   mit, Innenabstand schon. Mit viel margin springt die Markierung erst,
+   wenn die Überschrift längst oben aus dem Bild ist.                   */
+.md-typeset h2 {
+  font-size: 1.28rem;
+  margin-top: 1.1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--esz-rule);
+  scroll-margin-top: 4.6rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.02rem;
+  margin-top: 0.5rem;
+  padding-top: 1.1rem;
+}
+
+/* Zwei Überschriften direkt hintereinander brauchen keine doppelte Luft. */
+.md-typeset h2 + h3 {
+  padding-top: 0.3rem;
+}
+
+.md-typeset h4 {
+  font-size: 0.86rem;
+  margin-top: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--esz-teal-text);
+}
+
+/* --- 4 Links ------------------------------------------------------------ */
+/* Deutlich als Link erkennbar: Farbe plus Unterstreichung mit Abstand.
+   Anker-Symbole neben Überschriften und Buttons sind ausgenommen.         */
+
+.md-typeset a:not(.headerlink):not(.md-button):not(.footnote-backref) {
+  color: var(--md-typeset-a-color);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: background-color 120ms, text-decoration-color 120ms;
+}
+
+.md-typeset a:not(.headerlink):not(.md-button):hover,
+.md-typeset a:not(.headerlink):not(.md-button):focus-visible {
+  text-decoration-thickness: 2.5px;
+  background-color: var(--esz-teal-light);
+  border-radius: 2px;
+}
+
+/* Externe Links bekommen ein kleines Pfeil-Zeichen */
+.md-typeset a[href^="http"]:not(.md-button)::after {
+  content: " \2197";
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+/* Überschriften-Anker unauffällig halten */
+.md-typeset .headerlink {
+  text-decoration: none;
+  color: var(--esz-rule);
+}
+
+.md-typeset h1 .headerlink:hover,
+.md-typeset h2 .headerlink:hover,
+.md-typeset h3 .headerlink:hover {
+  color: var(--esz-teal-text);
+}
+
+/* Listen aus reinen Links (z. B. "Most used") etwas luftiger */
+.md-typeset ul li {
+  margin-bottom: 0.35em;
+}
+
+/* --- 5 Navigation ------------------------------------------------------- */
+/* Grundproblem: Bereichsüberschriften ("Writing", "Exams") und die
+   Überschrift der rechten Spalte ("Table of contents") sahen fast genauso
+   aus wie die Links darunter. Sie bekommen deshalb eine eigene Typografie:
+   Kapitälchen, kleiner Grad, weite Laufweite, gedeckte Farbe und eine feine
+   Linie darunter. Fett allein reicht als Unterscheidung nicht.
+
+   font-variant-caps: all-small-caps rendert echte bzw. synthetische
+   Kapitälchen. Wo das nicht unterstützt wird, greift der Fallback
+   text-transform: uppercase mit kleinerem Schriftgrad.                    */
+
+/* gemeinsame Basis für alle Navigations-Überschriften */
+.md-nav__title,
+.md-nav--secondary .md-nav__title,
+.md-nav__item--section > .md-nav__link {
+  font-weight: 700;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;          /* Fallback */
+  color: var(--esz-heading-color);
+}
+
+@supports (font-variant-caps: all-small-caps) {
+  .md-nav__title,
+  .md-nav--secondary .md-nav__title,
+  .md-nav__item--section > .md-nav__link {
+    font-variant-caps: all-small-caps;
+    text-transform: none;             /* echte Kapitälchen statt Versalien */
+    font-size: 0.82rem;               /* Kapitälchen wirken kleiner */
+  }
+}
+
+/* Bereichsüberschriften in der linken Spalte: Linie darunter, kein Hover,
+   damit klar ist, dass sie keine Links sind. */
+.md-nav__item--section > .md-nav__link {
+  display: block;
+  margin: 1.4rem 0 0.35rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--esz-rule);
+  color: var(--esz-teal-text);
+  cursor: default;
+}
+
+.md-nav__item--section:first-child > .md-nav__link {
+  margin-top: 0.4rem;
+}
+
+/* Überschrift der rechten Spalte ("Table of contents") */
+.md-nav--secondary .md-nav__title {
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
+  border-bottom: 1px solid var(--esz-rule);
+  color: var(--esz-teal-text);
+  background: none;
+  box-shadow: none;
+}
+
+/* Die Links selbst bleiben bewusst normal gesetzt: kleiner Kontrast in
+   Gewicht und Farbe, damit die Kapitälchen darüber wirken können. */
+.md-nav__link {
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  font-variant-caps: normal;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.md-nav__item--section > .md-nav__link {
+  font-size: 0.82rem;                 /* Überschrift wieder hochsetzen */
+}
+
+.md-nav__link--active,
+.md-nav__link--active > * {
+  font-weight: 700;
+  color: var(--esz-teal-text);
+}
+
+.md-nav__list .md-nav__link--active {
+  box-shadow: inset 3px 0 0 var(--esz-teal);
+  padding-left: 0.5rem;
+}
+
+/* Inhaltsverzeichnis der Seite. Mit toc.integrate hängt es unter dem
+   aktiven Eintrag in der linken Spalte, es gibt also keine zweite
+   Navigationsspalte rechts mehr. Damit es sich vom Seitenbaum absetzt,
+   bekommt es einen eingerückten Balken. */
+.md-nav--primary .md-nav--secondary {
+  margin: 0.3rem 0 0.6rem 0.1rem;
+  padding-left: 0.6rem;
+  border-left: 2px solid var(--esz-rule);
+}
+
+.md-nav--primary .md-nav--secondary .md-nav__link {
+  font-size: 0.68rem;
+  opacity: 0.9;
+}
+
+.md-nav--primary .md-nav--secondary .md-nav__title {
+  border-bottom: none;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.15rem;
+  font-size: 0.66rem;
+}
+
+@supports (font-variant-caps: all-small-caps) {
+  .md-nav--primary .md-nav--secondary .md-nav__title {
+    font-size: 0.76rem;
+  }
+}
+
+/* Auf schmalen Bildschirmen klappt Material die Navigation in ein Drawer.
+   Dort ist .md-nav__title der Seitentitel und darf nicht gedeckt wirken. */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    color: var(--esz-heading-color);
+    border-bottom: none;
+  }
+}
+
+/* --- 6 Tabellen --------------------------------------------------------- */
+/* Grundsatz: die Tabelle ist so breit wie ihr Inhalt, höchstens so breit
+   wie die Textspalte. Spaltenbreiten regelt der Browser über das
+   automatische Layout, damit eine schmale erste Spalte auch schmal
+   bleibt und die Tabelle nicht künstlich aufgeblasen wird.
+   Material setzt Tabellen auf display:block mit width:100%. Das wird
+   hier bewusst überschrieben.                                          */
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: auto;
+  max-width: 100%;
+  table-layout: auto;
+  border: 1px solid var(--esz-rule);
+  border-radius: 6px;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: none;
+  font-size: 0.76rem;
+  overflow: hidden;
+}
+
+/* Der Umbruchcontainer von Material darf trotzdem scrollen, falls eine
+   Tabelle auf dem Handy doch zu breit wird. */
+.md-typeset .md-typeset__table,
+.md-typeset__scrollwrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Kopfzeile: durchgehende Fläche ohne senkrechte Fugen. Die Farbe liegt
+   auf thead und auf den Zellen, sonst blitzt bei abgerundeten Ecken und
+   bei leeren Kopfzellen der Seitenhintergrund durch.                   */
+.md-typeset table:not([class]) thead,
+.md-typeset table:not([class]) thead tr {
+  background-color: var(--esz-teal-light);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--esz-teal-light);
+  color: var(--esz-heading-color);
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  vertical-align: bottom;
+  border: none;
+  border-bottom: 2px solid var(--esz-teal);
+  padding: 0.5em 0.9em;
+  white-space: nowrap;
+}
+
+/* Lange Spaltenüberschriften dürfen umbrechen, kurze nicht. */
+.md-typeset table:not([class]) th.wrap,
+.md-typeset table:not([class]) th:only-child {
+  white-space: normal;
+}
+
+.md-typeset table:not([class]) td {
+  border: none;
+  border-top: 1px solid var(--esz-rule);
+  padding: 0.5em 0.9em;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) tbody tr:first-child td {
+  border-top: none;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--esz-surface);
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--esz-teal-light);
+}
+
+/* Schmale Zellen sollen nicht umbrechen, damit die Spalte eng bleibt:
+   erste Spalte einer Tabelle, wenn ihr Inhalt kurz ist. Das regelt im
+   Markdown die Klasse .tight am Tabellenkopf.                          */
+.md-typeset table:not([class]).tight td:first-child,
+.md-typeset table:not([class]) td.nowrap {
+  white-space: nowrap;
+  width: 1%;
+}
+
+/* Aufzählungen in Tabellenzellen (Useful phrases, Text types). Sie stehen
+   als reines HTML im Markdown, weil Markdown-Tabellen keine echten Listen
+   erlauben. Ohne diese Regeln erben sie die Absatzabstände der Seite und
+   die Tabelle wird doppelt so hoch wie nötig.                          */
+.md-typeset table:not([class]) td > ul {
+  margin: 0;
+  padding-left: 1.05em;
+  list-style: none;
+}
+
+.md-typeset table:not([class]) td > ul > li {
+  margin: 0 0 0.28em;
+  padding: 0;
+  line-height: 1.45;
+  position: relative;
+  break-inside: avoid;
+}
+
+.md-typeset table:not([class]) td > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset table:not([class]) td > ul > li::before {
+  content: "\2022";
+  position: absolute;
+  left: -0.95em;
+  color: var(--esz-teal);
+  font-weight: 700;
+}
+
+/* Zweispaltige Aufzählung innerhalb einer Zelle, für kurze Einträge wie
+   Wortalternativen. Klasse im Markdown: <ul class="cols">             */
+.md-typeset table:not([class]) td > ul.cols {
+  column-count: 2;
+  column-gap: 1.6em;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset table:not([class]) td > ul.cols {
+    column-count: 1;
+  }
+  .md-typeset table:not([class]) th {
+    white-space: normal;
+  }
+  .md-typeset table:not([class]).tight td:first-child {
+    white-space: normal;
+    width: auto;
+  }
+}
+
+/* --- 7 Admonitions ------------------------------------------------------ */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-width: 1px;
+  border-left-width: 4px;
+  box-shadow: none;
+  font-size: 0.78rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-weight: 700;
+}
+
+/* "At a glance" steht auf jeder How-to-Seite oben und darf auffallen */
+.md-typeset .admonition.tip {
+  background-color: var(--esz-teal-light);
+}
+
+/* --- 8 Karten (grid cards auf der Startseite) --------------------------- */
+
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--esz-rule);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  box-shadow: none;
+  transition: border-color 140ms, transform 140ms, box-shadow 140ms;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--esz-teal);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.md-typeset .grid.cards > ul > li > p:first-child {
+  margin-top: 0;
+}
+
+/* Kartentitel: fett, dunkel, eigene Zeile */
+.md-typeset .grid.cards > ul > li > p:first-child > strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--esz-heading-color);
+  margin-bottom: 0.2rem;
+}
+
+/* --- 9 "At a glance"-Box ------------------------------------------------ */
+/* Die Box steht oben auf jeder How-to-Seite und hat immer dieselben
+   Zeilenüberschriften. Umgesetzt als randlose zweispaltige Tabelle in
+   einer Admonition, damit die Beschriftungen exakt untereinander stehen. */
+
+.md-typeset .admonition.tip .glance,
+.md-typeset .admonition.tip table:not([class]) {
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  margin: 0.2rem 0 0;
+  font-size: 0.78rem;
+  display: table;
+  width: 100%;
+}
+
+.md-typeset .admonition.tip table:not([class]) thead {
+  display: none;                 /* leere Kopfzeile ausblenden */
+}
+
+.md-typeset .admonition.tip table:not([class]) th,
+.md-typeset .admonition.tip table:not([class]) td {
+  background: none;
+  border: none;
+  border-top: 1px solid var(--esz-rule);
+  padding: 0.38rem 0.6rem 0.38rem 0;
+  vertical-align: top;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.78rem;
+}
+
+.md-typeset .admonition.tip table:not([class]) tbody tr:first-child td {
+  border-top: none;
+}
+
+.md-typeset .admonition.tip table:not([class]) tbody tr {
+  background: none !important;
+}
+
+/* erste Spalte: die feste Beschriftung, Kapitälchen wie in der Navigation */
+.md-typeset .admonition.tip table:not([class]) td:first-child {
+  width: 10.5em;
+  white-space: nowrap;
+  font-weight: 700;
+  color: var(--esz-teal-text);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  padding-top: 0.52rem;
+}
+
+@supports (font-variant-caps: all-small-caps) {
+  .md-typeset .admonition.tip table:not([class]) td:first-child {
+    font-variant-caps: all-small-caps;
+    text-transform: none;
+    font-size: 0.8rem;
+    padding-top: 0.42rem;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .admonition.tip table:not([class]) td:first-child {
+    width: 8em;
+    white-space: normal;
+  }
+}
+
+/* --- 10 Anklickbare Checklisten ---------------------------------------- */
+
+.md-typeset .task-list-item {
+  margin-bottom: 0.3em;
+}
+
+/* Material blendet das echte Kästchen aus und zeichnet einen Ersatz.
+   Damit es anklickbar bleibt, muss das Eingabefeld Klicks annehmen. */
+.md-typeset .task-list--interactive .task-list-control {
+  cursor: pointer;
+}
+
+.md-typeset .task-list--interactive .task-list-control input[type="checkbox"] {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.md-typeset .task-list--interactive .task-list-item {
+  transition: color 140ms;
+}
+
+.md-typeset .task-list--interactive .task-list-item .task-list-text {
+  transition: opacity 140ms;
+}
+
+.md-typeset .task-list--interactive .task-list-item.is-done .task-list-text {
+  opacity: 0.55;
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--esz-teal-text);
+}
+
+/* Fortschrittsleiste über jeder Checkliste */
+.checklist-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.6rem 0 0.5rem;
+  font-size: 0.7rem;
+  color: var(--esz-heading-color);
+}
+
+.checklist-progress__count {
+  min-width: 4.4em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.checklist-progress__track {
+  flex: 1;
+  height: 5px;
+  border-radius: 3px;
+  background-color: var(--esz-rule);
+  overflow: hidden;
+}
+
+.checklist-progress__fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 3px;
+  background-color: var(--esz-teal);
+  transition: width 180ms ease-out;
+}
+
+.checklist-progress.is-complete .checklist-progress__fill {
+  background-color: var(--esz-teal-dark);
+}
+
+.checklist-progress__reset {
+  border: 1px solid var(--esz-rule);
+  border-radius: 4px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: 0.66rem;
+  padding: 0.1rem 0.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.checklist-progress__reset:hover {
+  opacity: 1;
+  border-color: var(--esz-teal);
+  background-color: var(--esz-teal-light);
+}
+
+/* --- 11 Titel-Links zur Startseite -------------------------------------- */
+
+a.md-header__home,
+a.md-header__home:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.md-nav__home {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* --- 12 Kleinteile ------------------------------------------------------ */
+
+.md-typeset hr {
+  border-bottom: 1px solid var(--esz-rule);
+  margin: 2.2rem 0;
+}
+
+/* Inline-Code sichtbar von Links unterscheiden */
+.md-typeset code {
+  background-color: var(--esz-surface);
+  border: 1px solid var(--esz-rule);
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.md-typeset blockquote {
+  border-left: 3px solid var(--esz-teal);
+  color: inherit;
+  font-style: normal;
+}
+
+.md-search__form {
+  border-radius: 6px;
+}
+
+/* Fokus-Ring für Tastaturbedienung */
+:focus-visible {
+  outline: 2px solid var(--esz-teal-text);
+  outline-offset: 2px;
+}
+
+/* Druckansicht: Links als Text lesbar halten */
+@media print {
+  .md-typeset a:not(.headerlink) {
+    text-decoration: none;
+    color: #000;
+  }
+}
