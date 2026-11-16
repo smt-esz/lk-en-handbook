@@ -20,7 +20,7 @@ You do not have to read it front to back. Come in when you are stuck, take what 
     [Discussion essay](writing/discussion.md) ·
     [Mediation](writing/mediation.md) ·
     [Speech](writing/speech.md) ·
-    [Summary](writing/summary.md)
+    [Outline and summary](writing/summary.md)
 
 -   **Analysis**
 

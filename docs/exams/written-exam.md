@@ -11,9 +11,9 @@ What the written English exam looks like, how long you have, and how the three p
     | **What counts** | Within each written part: language 60 %, content 40 %. Sub-task weightings are printed on your paper |
     | **Watch out** | Two of the four topic fields **change from year to year**. Part B is a quarter of the grade for a fraction of the time |
 
-!!! warning "Figures from the 2027 regulations"
+!!! warning "Check the topic fields for your year"
 
-    The binding regulation for the 2028 examination has not been published yet. Everything below follows the 2027 version, which has been stable for several years. Your teacher will confirm the final figures in year 12.
+    The weightings and timings below are the current ones. The topic fields are the part that has changed before, so your teacher will confirm the list for your year in year 12.
 
 ## The three parts
 
@@ -51,9 +51,9 @@ Leave the language pass in. Language is 60 % of both written parts, and a focuse
 
 ## The sub-tasks in Part A
 
-Part A comes in numbered sub-tasks, usually three. **The percentage weighting of each sub-task is printed on your exam paper.** Read it before you plan: it tells you where the content marks actually sit, and it is not always distributed the way you would guess.
+Part A comes in three numbered sub-tasks. Sub-tasks 1 and 2 are the work with the text, called A1 in this handbook: first an outline, then an analysis. Sub-task 3 is the composition beyond the text, called A2. **The percentage weighting of each sub-task is printed on your exam paper.** Read it before you plan: it tells you where the content marks actually sit, and it is not always distributed the way you would guess.
 
-Sub-task 3 typically offers two options, both connected back to the text: a **personal response** or a piece of **creative writing**. Both are marked with the same rigour. Choose the one you have practised, not the one that looks shorter.
+Sub-task 3 comes in two forms, both connected back to the text: a **personal response** or a piece of **creative writing**. Both are marked with the same rigour. Practise both, and where the paper lets you choose, take the one you have practised, not the one that looks shorter.
 
 ## Content: the four topic fields
 
@@ -101,6 +101,7 @@ Each of the three parts gets its own grade points. Within Part A and Part B, lan
 
 ```
 Part A   (language 0.6 + content 0.4)   ×  0.55
+         content = sub-tasks 1, 2 and 3, each weighted as printed on your paper
 Part B   (language 0.6 + content 0.4)   ×  0.25
 Speaking                                ×  0.20
 ──────────────────────────────────────────────

@@ -6,14 +6,14 @@ Seventeen past papers, from 2007 to 2023, all Advanced Course, all first sitting
 
     |   |   |
     |---|---|
-    | **Format** | Part A1 two set operators, Part A2 choose one of three, Part B mediation with no choice |
+    | **Format** | Part A1 outline plus analysis (two set sub-tasks), Part A2 composition beyond the text (choose one of three), Part B mediation with no choice |
     | **Timing** | 285 minutes for everything, choice and reading included |
     | **What counts** | A1 and A2 are marked together as the writing task. Sub-task weightings are printed on the paper |
     | **Watch out** | The three A2 options are **not** equally quick. Read all three before choosing |
 
 ## Part A1: working with the text
 
-Always two instructions, and in seventeen years they never once asked for only one. The first is comprehension, the second is analysis.
+Always two instructions, and in seventeen years they never once asked for only one. The first is comprehension, the second is analysis. In the marking they are sub-task 1 (the outline) and sub-task 2 (the analysis), each assessed for content on its own.
 
 | Typical first operator | Typical second operator |
 |---|---|
@@ -21,11 +21,13 @@ Always two instructions, and in seventeen years they never once asked for only o
 
 Two things follow from this. The first instruction wants **the text's content in your words**, not your reading of it. The second wants **how**, which means [statement, evidence, effect](../analysis/non-fictional-texts.md) every time. Answering the second operator in the mode of the first is the single most common way to lose content marks here.
 
+The official operator list treats *outline*, *summarize* and *sum up* as one operator, and *analyse* and *examine* as one. Do not hunt for a difference in depth between them.
+
 Occasionally A1 gives you **two texts** to compare. The comparison is then part of the operator, not an optional extra.
 
-## Part A2: choose one of three
+## Part A2: beyond the text, choose one of three
 
-This is where the paper offers you a decision, and it is worth understanding what you are choosing between. Across the years the three options fall into recognizable types.
+A2 is the part beyond the text: you stop analysing and write a piece of your own, which is sub-task 3 in the marking. The paper offers you a decision here, and it is worth understanding what you are choosing between. Across the years the three options fall into recognizable types.
 
 | Type | How often | What it looks like |
 |---|---|---|
@@ -73,7 +75,6 @@ That means two things are always being tested beyond your English. **Selection**
 Printed on every paper, in German, and worth knowing before the day:
 
 - **You may do the parts in any order.** A1, A2 and B, in whatever sequence suits you
-- **Never more than four consecutive words** unchanged from the source. Quotations must be marked as such
 - **Label the parts clearly** and keep them separate: A1, A2 and B
 - Permitted aids: **mono- and bilingual dictionaries** plus a German spelling dictionary
 

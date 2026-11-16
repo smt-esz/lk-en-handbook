@@ -16,7 +16,7 @@ A poem says something in a way no other text type could, and analysis means show
 
 | Operator | Example task |
 |---|---|
-| **interpret** (AFB III) | *Write an article for the Poetry Corner in which you interpret the poem "The Armful" by Robert Frost, also considering the effect it has on you.* (Abitur 2018) |
+| **interpret** | *Write an article for the Poetry Corner in which you interpret the poem "The Armful" by Robert Frost, also considering the effect it has on you.* (Abitur 2018) |
 | **describe**, **analyse**, **examine**, **compare** | Standard operators for any literary analysis, see [fictional texts](fictional-texts.md) |
 
 See [Operators](../language/operators.md).
@@ -97,4 +97,4 @@ Naming a device earns nothing. Connecting it to meaning earns everything.
 - Ignoring the form entirely and treating the poem as a short prose text
 - Missing the turn, which usually means missing the point
 
-See also: [How to analyse fictional texts](fictional-texts.md) · [Stylistic devices](../language/stylistic-devices.md) · [How to write a characterization](../writing/characterization.md)
+See also: [How to analyse fictional texts](fictional-texts.md) · [Poetic form and structure](../language/poetic-form.md) · [Stylistic devices](../language/stylistic-devices.md) · [How to write a characterization](../writing/characterization.md)

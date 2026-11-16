@@ -14,10 +14,10 @@
 
 | Operator | Example task |
 |---|---|
-| **present** (AFB I) | *Present the results of your survey to the class.* |
-| **illustrate** (AFB II) | *Illustrate your point with examples from your research.* |
+| **present** | *Present the results of your survey to the class.* |
+| **illustrate** | *Illustrate your point with examples from your research.* |
 
-*present* is the operator this task type is named after, it is almost always the one used. See [Operators](../language/operators.md#afb-i-understanding-and-reproducing).
+*present* is the operator this task type is named after, it is almost always the one used. See [Operators](../language/operators.md#other-operators-you-may-meet).
 
 ## Step by step
 

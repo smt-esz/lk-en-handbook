@@ -12,11 +12,11 @@ In the examination this is one of the two options in the final sub-task. The oth
     | **Length** | As set by the task, typically 200 to 300 words |
     | **Watch out** | **Nothing may contradict the source.** Invention is welcome, contradiction is a content error |
 
-**Operators for this task type:** creative briefs skip the formal AFB operators, the task simply says **write**, and the brief itself sets what the text has to do.
+**Operators for this task type:** creative briefs skip the analytical operators, the task simply says **write**, and the brief itself sets what the text has to do.
 
 | Instruction | Example task |
 |---|---|
-| **write** (AFB III, only operator used) — remember this one | *Write a love letter to the United Kingdom expressing appreciation of two of the following aspects: history, politics, science, culture.* (Abitur 2017) |
+| **write** (the only operator used) — remember this one | *Write a love letter to the United Kingdom expressing appreciation of two of the following aspects: history, politics, science, culture.* (Abitur 2017) |
 | continue *(not a formal operator, but common in class)* | *Continue the story from the point where the extract breaks off.* |
 
 See [Operators](../language/operators.md) for how the formal operators work in the other task types.

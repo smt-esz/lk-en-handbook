@@ -9,7 +9,7 @@ How written work is graded in this course. The system is the one the final exami
     | **Format** | grade points from 0 to 15, never assessment units. Language and content marked separately |
     | **Timing** | class exams up to 180 minutes. Once per subject the full examination time of 285 minutes. Returned within three weeks |
     | **What counts** | **Language 60 %, content 40 %.** Language in three equal categories: lexis, grammar, text organization |
-    | **Watch out** | **Range beats accuracy.** Never copy more than four consecutive words. "Ungenügend" in either half caps that part at three points |
+    | **Watch out** | **Range beats accuracy.** Class rule of thumb: never copy more than four words in a row from the source |
 
 ## How many exams?
 
@@ -34,7 +34,7 @@ The exact number for each term, and the weighting of class exams against other a
 
 Class exams in a foreign language may run up to **180 minutes**. Once per subject a class exam may take the full examination time of **285 minutes**, and we will use that in 12/I so that you have written the real thing before the real thing.
 
-Class exams mirror the examination tasks: a text-based writing task (analysis plus composition) and, regularly, a mediation. There are no listening comprehension tasks in the Advanced Course. See [What actually gets asked](task-formats.md) for the shape of the paper.
+Class exams mirror the examination tasks: a text-based writing task (outline, analysis and composition) and, regularly, a mediation. There are no listening comprehension tasks in the Advanced Course. See [What actually gets asked](task-formats.md) for the shape of the paper.
 
 ## How your grade is built
 
@@ -78,35 +78,33 @@ Orthography is marked inside lexis and grammar, under accuracy. It matters, but 
 
 | Task | Categories |
 |---|---|
-| **Summary / first sub-task** | Task fulfilment according to the operator; focus on relevant aspects; level of abstraction where required; structure |
-| **Analysis** | Task fulfilment; interpretation of the text taking its stylistic devices into account; reference to the text with apt, differentiated and functional evidence and quotations; structure |
-| **Comment / personal response** | Task fulfilment; argumentation developing a position of your own; reference to material and topic with fitting examples and evidence; structure |
-| **Creative writing** | Task fulfilment; convincing ideas realized in the text type, with a clear sense of situation and addressee; reference to material and topic; structure |
+| **Outline (sub-task 1)** | Task fulfilment according to the operator; focus on relevant aspects; level of abstraction where required; structure |
+| **Analysis (sub-task 2)** | Task fulfilment; interpretation of the text taking its stylistic devices into account; reference to the text with apt, differentiated and functional evidence and quotations; structure |
+| **Comment / personal response (sub-task 3)** | Task fulfilment; argumentation developing a position of your own; reference to material and topic with fitting examples and evidence; structure |
+| **Creative writing (sub-task 3)** | Task fulfilment; convincing ideas realized in the text type, with a clear sense of situation and addressee; reference to material and topic; structure |
 | **Mediation** | Task fulfilment according to the operator; focus on relevant aspects, abstraction and cultural explanation where required; situation and addressee realized in the text type; structure |
 
 "Structure" appears in every row. Clear, non-redundant, coherent organization earns marks in its own right on every task you will write here.
 
-## The four-word rule
+## The four-word rule of thumb
 
-!!! warning "Never copy more than four consecutive words"
+!!! warning "Rule of thumb: no more than four consecutive words"
 
-    In text production you may not take **more than four words in a row** unchanged from the source. Quotations used deliberately and the topic vocabulary contained in the text are exempt.
+    In text production, do not take **more than four words in a row** unchanged from the source. This is a rule of thumb from class. Quotations used deliberately and the topic vocabulary contained in the text are fine.
 
 The most common avoidable mistake in summaries and analyses. If you are keeping five or six words of the original because "it says it best", that is exactly the moment to paraphrase.
-
-## The three-point cap
-
-A performance rated "unsatisfactory" in **either** language **or** content limits that part of the exam to three points in simple weighting, however good the other half is. You cannot pass a task on content alone, and you cannot pass it on English alone.
 
 ## Answers that miss the task
 
 Parts of an answer with no linguistic or thematic connection to the task set are not marked at all. They are flagged and treated as unwritten. Writing more is not a strategy.
 
-## Grading scale (class exams)
+## Converting points into grade points
+
+For tests and other work marked in raw points, the school uses one conversion table. The share of the points you reached decides the grade points, and each percentage is a lower limit. Written tasks marked criterion by criterion, as described above, do not need it.
 
 | Grade points | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| from … % | 95 | 90 | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 | 45 | 40 | 33⅓ | 26⅔ | 20 |
+| from … % | 96 | 91 | 86 | 81 | 76 | 71 | 66 | 61 | 56 | 51 | 46 | 41 | 35 | 28 | 21 |
 
 ## Before you hand in any written task
 

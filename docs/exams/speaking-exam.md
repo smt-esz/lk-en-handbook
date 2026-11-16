@@ -32,11 +32,13 @@ Three categories, **weighted equally**:
 
 | Category | The question behind it |
 |---|---|
-| **Handling the content** | Do you deal with the topic substantially, with reasons and examples, and stay on task |
-| **Interaction** | Do you respond to your partner, build on what they said, disagree constructively, keep the conversation moving |
-| **Language** | Range and accuracy of your English, appropriate [register](../language/register-and-tone.md), fluency |
+| **Handling the content** | Do you meet the task, cover the aspects of the topic with substance, and build a line of thought that convinces |
+| **Interaction** | Do you react to your partner, take an active part and help steer the conversation, and use communication strategies such as paraphrasing, asking back, correcting yourself and body language |
+| **Language** | Pronunciation, intonation and pace, plus range and accuracy of vocabulary and structures |
 
 Interaction is a third of the marks, which is the part candidates most often forget. Two people delivering parallel monologues both lose in the same category. Talking over your partner loses you the same category from the other direction.
+
+Spoken language is marked as spoken language. Short or unfinished sentences, filler words, repetition and pauses are fine as long as they serve the conversation. Strategies for when words fail count in your favour: paraphrase, ask back, correct yourself.
 
 ## What good interaction sounds like
 
@@ -48,6 +50,7 @@ Interaction is a third of the marks, which is the part candidates most often for
 | Asking for clarification | Sorry, do you mean … ? / Could you say more about … ? |
 | Building a joint conclusion | So we both seem to think that … / Where we differ is … |
 | Buying yourself a second | That's a difficult one. Let me think about it for a moment … |
+| Rescuing a sentence | What I mean is … / Let me put it differently / Sorry, I meant … |
 
 Learn six of these properly rather than twenty badly. They are what turns two monologues into a conversation.
 
@@ -77,4 +80,4 @@ Learn six of these properly rather than twenty badly. They are what turns two mo
 - Everything is minuted throughout. The minutes may be kept in English
 - Your score is announced right after the exam and cannot be changed later by the people marking your written paper
 
-See also: [The written examination](written-exam.md) · [Exam day](exam-day.md)
+See also: [The written examination](written-exam.md) · [Exam day](exam-day.md) · [Operators](../language/operators.md#speaking)

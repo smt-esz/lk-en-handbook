@@ -1,32 +1,34 @@
-# How to write a summary
+# How to write an outline or summary
 
 !!! tip "At a glance"
 
     |   |   |
     |---|---|
-    | **Purpose** | Reproduce the essential content of a text objectively, so that someone who has not read it understands it |
-    | **Structure** | Introductory sentence → key statements in a logical order → (optional) closing sentence |
+    | **Purpose** | Give a concise account of the main points of a text, as the task specifies, so that someone who has not read it understands it |
+    | **Structure** | Introductory sentence → key points in a logical order → (optional) closing sentence |
     | **Register & voice** | Neutral to formal, neutral point of view, **simple present**, reported speech where needed |
-    | **Length** | Roughly **one third** of the original, unless the task sets a word count |
-    | **Watch out** | Never more than **four consecutive words** from the source. No examples, no quotations, no opinion |
+    | **Length** | As set by the task. Class rule of thumb: about **one third** of the original |
+    | **Watch out** | Class rule of thumb: no more than **four consecutive words** from the source. Select by the task, then group and abstract. No examples, no quotations, no opinion |
 
-**Operators for this task type:**
+**Operators for this task type:** *outline*, *summarize* and *sum up* are one operator in the exam: a concise account of the main points **as the task specifies them**.
 
 | Operator | Example task |
 |---|---|
-| **outline** (AFB I) — most common, remember this one | *Outline the information given on Dell and his family.* (Abitur 2020) |
-| **summarize / sum up** (AFB I) | *Sum up what you learn about the protagonist.* (Abitur 2007) |
+| **outline** — most common, remember this one | *Outline the information given on Dell and his family.* (Abitur 2020) |
+| **summarize / sum up** | *Sum up what you learn about the protagonist.* (Abitur 2007) |
 
-See [Operators](../language/operators.md#afb-i-understanding-and-reproducing).
+Look at what the examples ask for. Not the whole text, but the information on Dell and his family, or what you learn about the protagonist. A task like this is not "write a summary of the text". The task names the angle, and everything that does not belong to it stays out.
+
+See [Operators](../language/operators.md#writing).
 
 ## Step by step
 
-1. **Read the text twice.** First for the general idea, then closely. Look up words you need for understanding.
-2. **Mark the key statements.** One per paragraph is a good rule of thumb. Ignore examples, figures, anecdotes and repetitions.
-3. **Group and order.** Combine related points. You may reorder them if it makes the summary more logical; you do not have to follow the text's structure.
-4. **Write the introductory sentence.** It carries title, author, source, date, text type and topic in one sentence.
-5. **Write the body.** Connect the key statements with linking words. Use reporting verbs to keep the distance to the text.
-6. **Revise.** Check tense, length and whether someone who has not read the text would understand your summary.
+1. **Read the task first, then the text twice.** The task names the aspect you are after. Read once for the general idea, then closely with that aspect in mind. Look up words you need for understanding.
+2. **Mark the key statements.** Only those that answer the task. Ignore examples, figures, anecdotes and repetitions.
+3. **Group and abstract.** Combine related points under one higher-level statement and write that statement, not the details beneath it. Stay one step above the text. You may reorder, you do not have to follow the structure of the original.
+4. **Write the introductory sentence.** One neutral sentence with author, title, place and date of publication, text type and main topic.
+5. **Write the body.** Connect the key points with linking words. Use reporting verbs to keep the distance to the text.
+6. **Revise.** Check tense, the four-word rule of thumb and whether someone who has not read the text would understand your account.
 
 ## Useful phrases
 
@@ -39,18 +41,21 @@ See [Operators](../language/operators.md#afb-i-understanding-and-reproducing).
 
 More under [Useful phrases for writing](../language/useful-phrases-writing.md).
 
-## Checklist for a summary
+## Checklist for an outline or summary
 
-- [ ] Introductory sentence complete (title, author, source, date, text type, topic)?
+- [ ] Only what the task asks for, nothing else from the text?
+- [ ] Introductory sentence complete (author, title, place and date, text type, topic)?
 - [ ] Simple present throughout?
+- [ ] Details grouped under higher-level statements instead of retold one by one?
 - [ ] Own words, no copied phrases from the text?
 - [ ] No examples, no quotes, no opinion?
-- [ ] About one third of the original length?
 - [ ] Understandable without the original text?
 
 ## Common mistakes
 
+- Summarizing the whole text although the task names one aspect
+- Staying so close to the text that the account reads like a shortened copy
 - Copying whole phrases from the text instead of paraphrasing
 - Drifting into past tense halfway through
 - Retelling every detail instead of selecting key statements
-- Smuggling in your own opinion; that belongs in a comment, not a summary
+- Smuggling in your own opinion; that belongs in a comment, not in an outline or summary

@@ -16,11 +16,11 @@ A characterization is an analysis with a person at the centre. Everything you cl
 
 | Operator | Example task |
 |---|---|
-| **analyse** (AFB II) — most common, remember this one | *Analyse Hector's character and the way Alan Bennett creates it.* (Abitur 2009) |
-| **compare** (AFB II) | *Compare Hector's and Irwin's attitudes towards education.* (Abitur 2009, same paper) |
-| **characterize** (AFB II) | On the official operator list and this page's own name, but rarely the literal task word |
+| **analyse** — most common, remember this one | *Analyse Hector's character and the way Alan Bennett creates it.* (Abitur 2009) |
+| **compare** | *Compare Hector's and Irwin's attitudes towards education.* (Abitur 2009, same paper) |
+| **characterize** | Not on the official core list, but it names this page and may turn up. Rarely the literal task word |
 
-See [Operators](../language/operators.md#afb-ii-analysing-and-restructuring).
+See [Operators](../language/operators.md#writing).
 
 ## Direct and indirect characterization
 

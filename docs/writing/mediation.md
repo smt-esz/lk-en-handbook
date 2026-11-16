@@ -7,18 +7,20 @@
     | **Purpose** | Transfer the content a specific **addressee** needs from a German text into English. Not a translation |
     | **Structure** | The structure of the **required text type**: email, article, blog post, letter, report |
     | **Register & voice** | Set by addressee and text type. Name your source. No opinion, no additions |
-    | **Length** | Roughly **one quarter** of the source. In the final examination the source is max. 650 words |
+    | **Length** | As set by the task. Class rule of thumb: about **one quarter** of the source. In the final examination the source is max. 650 words |
     | **Watch out** | The **task decides** what is relevant, not the text. Never translate word for word, and never let German sentence patterns through |
 
 **Operators for this task type:** mediation itself is not set by one operator, the addressee and text type do that. The instruction for *what* to transfer rotates between these:
 
 | Operator | Example task |
 |---|---|
-| **summarize / sum up** (AFB I) — most common, remember this one | *Write a summary in English of what the following text says about children's values.* (Abitur 2011) |
-| **outline** (AFB I) | *Outline what CityTrees are and why they might be interesting for big cities.* (Abitur 2019) |
-| **present** (AFB I) | *Write an article for this website in which you present "Lieferrad DA".* (Abitur 2023) |
+| **summarize / sum up** — most common, remember this one | *Write a summary in English of what the following text says about children's values.* (Abitur 2011) |
+| **outline** | *Outline what CityTrees are and why they might be interesting for big cities.* (Abitur 2019) |
+| **present** | *Write an article for this website in which you present "Lieferrad DA".* (Abitur 2023) |
 
-See [Operators](../language/operators.md).
+All of these ask for a concise account of the main points as the task specifies them. Where your addressee does not know a German institution or custom, you are expected to explain it.
+
+See [Operators](../language/operators.md#mediation).
 
 ## Step by step
 

@@ -16,11 +16,12 @@ Two different formats with two different goals. A discussion looks for the best 
 
 | Operator | Example task |
 |---|---|
-| **discuss** (AFB III) | *Discuss in pairs whether social media should be regulated more strictly.* |
-| **justify** (AFB III) | *Justify your position after listening to your partner's arguments.* |
-| **assess** (AFB III) | *Assess the strongest argument you heard from the other side.* |
+| **discuss** | *Discuss in pairs whether social media should be regulated more strictly.* |
+| **argue** | *Argue for or against a ban on mobile phones in lessons.* |
+| **justify** | *Justify your position after listening to your partner's arguments.* |
+| **assess** | *Assess the strongest argument you heard from the other side.* |
 
-See [Operators](../language/operators.md#afb-iii-evaluating-and-creating) for what each of these actually asks for.
+See [Operators](../language/operators.md#speaking) for what each of these actually asks for.
 
 ## Discussion or debate?
 

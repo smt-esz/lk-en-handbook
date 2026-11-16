@@ -108,7 +108,7 @@ The five lines below mean the same thing on every page of this handbook:
 | **Structure** | Introductory sentence with text type, title, author, source, date and topic → the key information in a logical order |
 | **Register & voice** | Neutral. Neutral point of view. Simple present, reported speech where needed |
 | **Length** | Shorter than a summary, driven by what the task calls relevant |
-| **Watch out** | An outline follows the task's angle, a summary follows the text. No opinion in either |
+| **Watch out** | Outline, summarize and sum up are one operator: a concise account of the main points as the task specifies. Select by the task and abstract, do not retell. No opinion |
 
 ### Report
 
@@ -137,8 +137,8 @@ The five lines below mean the same thing on every page of this handbook:
 | **Purpose** | Let a reader who does not know the text understand what it says |
 | **Structure** | Introductory sentence with text type, title, author, source, date and topic → key statements in a logical order → optional closing sentence |
 | **Register & voice** | Neutral to formal. Neutral point of view. **Simple present.** Reported speech where needed |
-| **Length** | About one third of the original |
-| **Watch out** | Own words throughout, never more than four consecutive words from the source. No examples, no quotations, no opinion. Full page: [How to write a summary](../writing/summary.md) |
+| **Length** | As set by the task. Class rule of thumb: about one third of the original |
+| **Watch out** | Own words throughout. Class rule of thumb: no more than four consecutive words from the source. No examples, no quotations, no opinion. Full page: [How to write an outline or summary](../writing/summary.md) |
 
 ### Mediation
 

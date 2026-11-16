@@ -10,20 +10,20 @@
     | **Length** | As set by the task |
     | **Watch out** | Retelling the plot is not analysis. Every claim needs **statement → evidence (quote + line) → effect** |
 
-**Operators for this task type:** Part A1 always pairs an AFB I operator with **analyse**, both are worth remembering.
+**Operators for this task type:** Part A1 is two sub-tasks in a fixed order: first an **outline** task, then an **analyse** task. Both are worth remembering.
 
 | Operator | Example task |
 |---|---|
-| **sum up / outline** (AFB I) | *Sum up what you learn about the protagonist.* (Abitur 2007) |
-| **analyse** (AFB II) — appears in every fiction task, remember this one | *Analyze how the author conveys Dell's attitude towards his teenage years. Refer to narrative perspective and language.* (Abitur 2020, spelled as in the original) |
-| **compare** (AFB II) | *Compare Hector's and Irwin's attitudes towards education.* (Abitur 2009) |
+| **outline / sum up** | *Sum up what you learn about the protagonist.* (Abitur 2007) |
+| **analyse** — appears in every fiction task, remember this one | *Analyze how the author conveys Dell's attitude towards his teenage years. Refer to narrative perspective and language.* (Abitur 2020, spelled as in the original) |
+| **compare** | *Compare Hector's and Irwin's attitudes towards education.* (Abitur 2009) |
 
 See [Operators](../language/operators.md).
 
 ## Step by step
 
 1. **Read the task first, then the text twice.** First reading for the story, second reading with a pencil: who tells this, who are the characters, where does the mood shift, which words stand out.
-2. **Write the introduction.** Title, author, year and text type, then the situation the extract shows, in one or two sentences. No plot summary unless the task asks for one.
+2. **Write the introduction.** Title, author, year and text type, then the situation the extract shows, in one or two sentences. No plot summary unless the task asks for one. In the outline sub-task the opening sentence gives the facts about the material once, briefly and neutrally. In the analysis sub-task do not repeat them: say what the analysis will examine, tied to the task. For example: *The following analysis examines how perspective and language show the protagonist's loneliness.*
 3. **Determine the narrative perspective.** This decides how much the reader is allowed to know and whom the reader sympathizes with. See [Narrative perspective](#narrative-perspective) below.
 4. **Analyse the characters.** What are they like, how do you know, and how does the author make you know it? See [Characters](#characters).
 5. **Analyse setting and atmosphere.** Place, time, social milieu, weather, objects. Setting is rarely decoration; it usually mirrors or contradicts what the characters feel.

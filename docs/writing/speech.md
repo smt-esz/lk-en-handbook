@@ -14,10 +14,10 @@
 
 | Operator | Example task |
 |---|---|
-| **write (a speech)** (AFB III) | *Write a speech for this conference reflecting on the relevance of historical events.* (Abitur 2010) |
-| **write … comment (on)** (AFB III) | *Write the script of your speech in which you comment on this attitude towards literature.* (Abitur 2021) |
+| **write (a speech)** | *Write a speech for this conference reflecting on the relevance of historical events.* (Abitur 2010) |
+| **write … comment (on)** | *Write the script of your speech in which you comment on this attitude towards literature.* (Abitur 2021) |
 
-*write* sets the format, it is often combined with a second operator (usually *comment*) that sets what the speech has to argue. See [Operators](../language/operators.md#afb-iii-evaluating-and-creating).
+*write* sets the format, it is often combined with a second operator (usually *comment*) that sets what the speech has to argue. See [Operators](../language/operators.md#writing).
 
 ## Step by step
 

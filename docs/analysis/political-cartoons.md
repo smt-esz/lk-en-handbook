@@ -14,9 +14,9 @@
 
 | Operator | Example task |
 |---|---|
-| **discuss** (AFB III) — most common, remember this one | *Discuss the message of the cartoon.* (Abitur 2010) |
-| **comment (on)** (AFB III) | *Based on a short analysis of the cartoon, comment on its message.* (Abitur 2019) |
-| **assess** (AFB III) | *Using the message of the cartoon as a starting point, assess to what extent people's private lives will be affected by technological developments in the future.* (Abitur 2022) |
+| **discuss** — most common, remember this one | *Discuss the message of the cartoon.* (Abitur 2010) |
+| **comment (on)** | *Based on a short analysis of the cartoon, comment on its message.* (Abitur 2019) |
+| **assess** | *Using the message of the cartoon as a starting point, assess to what extent people's private lives will be affected by technological developments in the future.* (Abitur 2022) |
 
 See [Operators](../language/operators.md).
 

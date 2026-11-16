@@ -4,7 +4,7 @@
 
 /* Version bei Design- oder Inhaltsupdates hochzaehlen, damit alte
    Dateien aus dem Cache verschwinden. */
-const CACHE = "lk-handbook-v1";
+const CACHE = "lk-handbook-v2";
 
 self.addEventListener("install", () => self.skipWaiting());
 

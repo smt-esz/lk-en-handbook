@@ -10,22 +10,22 @@
     | **Length** | As set by the task |
     | **Watch out** | Never just spot a device. **Statement → evidence (quote + line) → effect**, every time |
 
-**Operators for this task type:** non-fiction is the most common Part A1 text. As with fiction, an AFB I operator is always paired with **analyse**, both worth remembering.
+**Operators for this task type:** non-fiction is the most common Part A1 text. As with fiction, an **outline** task comes first and an **analyse** task follows, both worth remembering.
 
 | Operator | Example task |
 |---|---|
-| **outline** (AFB I) — most common opening operator | *Outline Rutherford's observations on private DNA tests and the concerns he expresses.* (Abitur 2022) |
-| **analyse** (AFB II) — appears in almost every non-fiction task | *Analyse how the author raises the readers' awareness of the implications of DNA testing.* (Abitur 2022) |
-| **examine** (AFB II) | *Examine the way the journalist appeals to his readers.* (Abitur 2016) |
-| **explain** (AFB II) | *Explain why the debate about Islamic schools "cuts to the heart of Britain's stated philosophy on multiculturalism."* (Abitur 2008) |
-| **assess** (AFB III) | *Analyse and assess the way the author presents the subject of minority integration.* (Abitur 2008) |
+| **outline** — most common opening operator | *Outline Rutherford's observations on private DNA tests and the concerns he expresses.* (Abitur 2022) |
+| **analyse** — appears in almost every non-fiction task | *Analyse how the author raises the readers' awareness of the implications of DNA testing.* (Abitur 2022) |
+| **examine** (the same operator as analyse) | *Examine the way the journalist appeals to his readers.* (Abitur 2016) |
+| **explain** | *Explain why the debate about Islamic schools "cuts to the heart of Britain's stated philosophy on multiculturalism."* (Abitur 2008) |
+| **assess** | *Analyse and assess the way the author presents the subject of minority integration.* (Abitur 2008) |
 
 See [Operators](../language/operators.md).
 
 ## Step by step
 
 1. **Read the task, then the text.** Mark the aspects the task asks about while reading; underline striking language.
-2. **Write the introduction.** One or two sentences naming title, author, source, date, text type, topic and the author's main thesis or intention.
+2. **Write the introduction.** In the outline sub-task, one factual sentence with title, author, source, date, text type and topic. In the analysis sub-task do not repeat that data: say what you will examine, tied to the task. For example: *The following analysis examines how structure and word choice make readers doubt the promise of private DNA tests.*
 3. **Analyse the structure and argumentation.**
 
     - How is the text built? Where does the author state the thesis?
@@ -54,7 +54,7 @@ See [Operators](../language/operators.md).
 
 ## Checklist for analysing non-fictional texts
 
-- [ ] Introduction with all key data and the author's thesis?
+- [ ] Key data given once, and an introduction that says what the analysis will examine?
 - [ ] Every claim backed by a quote with line reference?
 - [ ] Effect explained for every device named?
 - [ ] Analysis linked to the author's intention?

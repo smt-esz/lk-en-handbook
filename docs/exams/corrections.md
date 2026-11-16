@@ -1,19 +1,19 @@
 # How to read my corrections
 
-Every mark on your paper means something specific. These are the official symbols used in the final examination, so you may as well learn them now rather than in Year 12.
+Every mark on your paper means something specific. Class exams are corrected with the full set below. The final examination uses fewer marks, so it pays to know which are which.
 
 !!! tip "At a glance"
 
     |   |   |
     |---|---|
-    | **Format** | Symbols in the **margin** say what kind of problem. Marks **in the text** say where and how bad |
+    | **Format** | Class exams: symbols in the margin say what kind of problem, marks in the text say where and how bad. Final examination: language only by marks in the text, content only in the margin |
     | **Timing** | class exams come back within three weeks. Final examination scripts you see at the official viewing session, not before |
     | **What counts** | ── straight line = language error · ∼∼ wavy line = weak expression · ✓ on a line = repeated error |
     | **Watch out** | The **wavy line** is the one that decides your band. Content problems are only ever marked in the margin |
 
 ## Marks inside the text
 
-English has its own conventions on top of the general ones. Three marks, and the difference between them matters.
+English has its own conventions on top of the general ones. Three marks, and the difference between them matters. In the final examination these three are the whole language marking: lines only, no letters.
 
 | Mark | Meaning | What to do about it |
 |---|---|---|
@@ -27,7 +27,7 @@ The tick is a gift. Collect them across a term and you have a personal error lis
 
 ## Symbols in the margin: language and form
 
-The letters are abbreviations of the official German terms. You will see them on every marked paper, so the German is worth knowing even though you never write it yourself.
+**Class exams only.** In the final examination language problems carry no letters, only the lines described above. In class exams the letters sit in the margin. They are abbreviations of the official German terms, so the German is worth knowing even though you never write it yourself.
 
 | Symbol | Stands for | Meaning | What it usually means for you |
 |---|---|---|---|
@@ -40,7 +40,7 @@ The letters are abbreviations of the official German terms. You will see them on
 
 ## Symbols in the margin: content
 
-The general symbol is **I** for *Inhalt*, content. Where it helps, it is made more precise:
+Content problems go in the margin and only there: nothing is marked in the text for content. The general symbol is **I** for *Inhalt*, content. Where it helps, it is made more precise:
 
 | Symbol | Stands for | Meaning |
 |---|---|---|
@@ -58,18 +58,6 @@ The general symbol is **I** for *Inhalt*, content. Where it helps, it is made mo
 | **uv** | unvollständig | Incomplete |
 
 **Bl** and **Bp** are the two that cost most marks in analyses. Both mean the same underlying thing: you asserted something without anchoring it in the text.
-
-## Colours
-
-In the final examination, three different people may write on your paper.
-
-| Colour | Who | Where |
-|---|---|---|
-| Red | First marker, your own teacher | Right margin |
-| Green | Second marker, a teacher from another school | Left margin |
-| Brown | Third marker, if the first two disagree | Left margin, sets the final symbol |
-
-You will not see points or assessment units written on a final examination script. Markers are not allowed to enter them on the paper.
 
 ## Working with a corrected exam
 

@@ -14,7 +14,7 @@
 
 | Operator | Example task |
 |---|---|
-| **analyse / assess** (AFB II/III) | *Analyse Obama's speech and assess to what extent the skills described by Philip Collins in "Sounds good" apply.* (Abitur 2010) |
+| **analyse / assess**  | *Analyse Obama's speech and assess to what extent the skills described by Philip Collins in "Sounds good" apply.* (Abitur 2010) |
 | **outline**, **examine**, **evaluate** | Standard operators for any rhetorical analysis, see [non-fictional texts](non-fictional-texts.md) |
 
 See [Operators](../language/operators.md).

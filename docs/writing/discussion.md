@@ -14,11 +14,11 @@
 
 | Operator | Example task |
 |---|---|
-| **discuss** (AFB III) — most common, remember this one | *Should schools provide moral guidance? Discuss.* (Abitur 2008) |
-| **assess** (AFB III) | *Assess the effectiveness of what authorities can do to change people's behaviour in order to deal with the problems of climate change.* (Abitur 2023) |
-| **evaluate** (AFB III) | *Explain the concept of 'Britishness' by evaluating the validity of at least two of the given statements about the United Kingdom.* (Abitur 2007) |
+| **discuss** — most common, remember this one | *Should schools provide moral guidance? Discuss.* (Abitur 2008) |
+| **assess** | *Assess the effectiveness of what authorities can do to change people's behaviour in order to deal with the problems of climate change.* (Abitur 2023) |
+| **evaluate** | *Explain the concept of 'Britishness' by evaluating the validity of at least two of the given statements about the United Kingdom.* (Abitur 2007) |
 
-See [Operators](../language/operators.md#afb-iii-evaluating-and-creating).
+See [Operators](../language/operators.md#writing).
 
 ## Step by step
 

@@ -16,9 +16,9 @@ A seminar is not a debate and not a normal class discussion. Nobody wins it. The
 
 | Operator | Example task |
 |---|---|
-| **interpret** (AFB III) | *Interpret what the text suggests about the narrator's state of mind.* |
-| **discuss** (AFB III) | *Discuss how your readings of the text differ within the group.* |
-| **relate** (AFB II) | *Relate this text to the ideas raised in the text discussed last week.* |
+| **interpret** | *Interpret what the text suggests about the narrator's state of mind.* |
+| **discuss** | *Discuss how your readings of the text differ within the group.* |
+| **relate** | *Relate this text to the ideas raised in the text discussed last week.* |
 
 See [Operators](../language/operators.md) for what each of these actually asks for.
 

@@ -14,11 +14,11 @@
 
 | Operator | Example task |
 |---|---|
-| **comment (on)** (AFB III) — the single most common operator on the whole exam, remember this one | *Comment on this proverb referring to different views presented in the text.* (Abitur 2008) |
-| **evaluate** (AFB III) | *Evaluate Garth Brooks' vision of an ideal society and compare it to your personal opinion on the topic.* (Abitur 2008) |
-| **justify** (AFB III) | On the official operator list, worth knowing even though it rarely turns up as the literal task word |
+| **comment (on)** — the single most common operator on the whole exam, remember this one | *Comment on this proverb referring to different views presented in the text.* (Abitur 2008) |
+| **evaluate** | *Evaluate Garth Brooks' vision of an ideal society and compare it to your personal opinion on the topic.* (Abitur 2008) |
+| **justify** | Not on the official core list, worth knowing even though it rarely turns up as the literal task word |
 
-See [Operators](../language/operators.md#afb-iii-evaluating-and-creating).
+See [Operators](../language/operators.md#writing).
 
 ## Step by step
 
